@@ -1,0 +1,27 @@
+{
+  "name": "cogs121-a0",
+  "version": "1.0.0",
+  "description": "Github Repository for COGS 121 Spring 2016 - Assignment 0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "start /b mongod --dbpath dbpath --logpath log/mongod.log&",
+    "start": "node server.js"
+  },
+  "author": "Paulo Gonzales",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koshinryo/cogs121-sp16-ass0.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Koshinryo/cogs121-sp16-ass0/issues"
+  },
+  "homepage": "https://github.com/Koshinryo/cogs121-sp16-ass0#readme"
+}

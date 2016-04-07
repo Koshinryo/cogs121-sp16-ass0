@@ -2,15 +2,32 @@
 <html>
 
 <head>
-    <title></title>
+    <title>COGS 121 Assignment 0</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 
 <body>
+  <div class="container">
+  <div class="row">
+
+  </div>
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
     <form action="/message" method="post">
     	Email: <input type="text" name="email"><br>
     	Content: <textarea name="content"></textarea><br>
-    	<input type="submit" value="Submit">
+    	<input type="submit" value="Submit" class="btn-primary">
     </form>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+  <div class="row">
+
+  </div>
+  <div class="row">
+    <div class="col-md-4"></div>
+    </div class="col-md-4">
     {{#if data}}
     <h3>My Messages</h3>
     <table>
@@ -30,6 +47,10 @@
     	</tbody>
     </table>
     {{/if}}
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+  </div>
 </body>
 
 </html>
